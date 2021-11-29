@@ -5,21 +5,29 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{D45C7A81-B17B-486A-9752-628EDE32EA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{F7A88668-BA56-4974-AB54-A3B69B918AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{F7A88668-BA56-4974-AB54-A3B69B918AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{C62CB35D-A10B-40A2-BA90-31519903813B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{C62CB35D-A10B-40A2-BA90-31519903813B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Factory", "Simple Factory\Simple Factory.csproj", "{5915FCAB-0FBA-4D7B-946A-66F0AFAB4DFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Factory", "Simple Factory\Simple Factory.csproj", "{5915FCAB-0FBA-4D7B-946A-66F0AFAB4DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{E9E4D953-CE27-4CAB-9BE9-F13B924EC914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract Factory", "Abstract Factory\Abstract Factory.csproj", "{E9E4D953-CE27-4CAB-9BE9-F13B924EC914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{57BECFEB-214F-42DE-B346-A92C2122D4A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{57BECFEB-214F-42DE-B346-A92C2122D4A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F606E32D-56D4-4832-B53D-44AEF3C6266D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{F606E32D-56D4-4832-B53D-44AEF3C6266D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{E6701395-C534-48C2-9360-55C9847DEDE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{E6701395-C534-48C2-9360-55C9847DEDE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{EEC4218C-0321-417F-B281-E018D595F809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficLights", "State\TrafficLights.csproj", "{EEC4218C-0321-417F-B281-E018D595F809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State Pattern", "State Pattern", "{BF1AD837-0844-4B7D-B833-E0F783496B7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{C96409D3-C53F-406C-A260-B08C523221B2}"
+	ProjectSection(SolutionItems) = preProject
+		State\Resourses\readme.txt = State\Resourses\readme.txt
+		State\Resourses\state.png = State\Resourses\state.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +74,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEC4218C-0321-417F-B281-E018D595F809} = {BF1AD837-0844-4B7D-B833-E0F783496B7B}
+		{C96409D3-C53F-406C-A260-B08C523221B2} = {BF1AD837-0844-4B7D-B833-E0F783496B7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD8DB315-E81D-4E94-9A4C-CB3E9A7CBCF4}
