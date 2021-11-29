@@ -6,7 +6,7 @@ namespace State
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("State Pattern Example");
         }
     }
 }
