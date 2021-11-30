@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Abstract_Factory
+namespace AbstractFactory
 {
     class Program
     {
