@@ -6,7 +6,7 @@ namespace Repository
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Repository pattern implements separation of concerns by abstracting the data persistence logic in your applications");
         }
     }
 }
