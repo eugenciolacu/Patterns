@@ -1,4 +1,4 @@
-﻿namespace TrafficLights
+﻿namespace State
 {
     public abstract class TrafficLightState
     {

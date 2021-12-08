@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TrafficLights
+namespace State
 {
     class Program
     {

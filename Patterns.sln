@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{E6701395-C534-48C2-9360-55C9847DEDE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrafficLights", "State\TrafficLights.csproj", "{EEC4218C-0321-417F-B281-E018D595F809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{EEC4218C-0321-417F-B281-E018D595F809}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State Pattern", "State Pattern", "{BF1AD837-0844-4B7D-B833-E0F783496B7B}"
 EndProject
